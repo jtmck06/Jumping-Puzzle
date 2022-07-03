@@ -27,10 +27,10 @@ protected:
 	class UStaticMeshComponent* FloorSwitch;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "FloorSwtich")
-	class UStaticMeshComponent* MidFloor;
+	UStaticMeshComponent* MidFloor;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Floor Swtich")
-	class UStaticMeshComponent* FinalFloor;
+	UStaticMeshComponent* FinalFloor;
 
 	//Gives the location of the mesh each FVector is tied allocated for the update function
 	UPROPERTY(BlueprintReadWrite, Category = "Floor Switch")
