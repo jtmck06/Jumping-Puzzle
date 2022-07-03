@@ -32,7 +32,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Floor Swtich")
 	UStaticMeshComponent* FinalFloor;
 
-	//Gives the location of the mesh each FVector is tied allocated for the update function
+	//Stores the FVector of the mesh's location 
 	UPROPERTY(BlueprintReadWrite, Category = "Floor Switch")
 	FVector InitialFloorSwitchLocation;
 
